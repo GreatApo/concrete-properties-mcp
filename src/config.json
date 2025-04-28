@@ -1,0 +1,21 @@
+{
+    "server": {
+        "name": "Concrete Properties MCP",
+        "version": "1.0.0"
+    },
+    "options": {
+        "mesh_size": 50,
+        "concrete": {
+            "material_density": 2.4e-6,
+            "rectangular_stress_block_alpha": 0.802,
+            "rectangular_stress_block_gamma": 0.89,
+            "rectangular_stress_block_ultimate_strain": 0.003,
+            "flexural_tensile_strength": 3.4
+        },
+        "rebar": {
+            "mesh_points": 4,
+            "material_density": 7.85e-6,
+            "material_fracture_strain": 0.05
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "servers": {
+        "concrete-properties-mcp": {
+            "command": "python",
+            "args": [
+                "${workspaceFolder}\\src\\server.py"
+            ]
+        }
+    }
+}
